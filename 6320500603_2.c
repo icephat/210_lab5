@@ -1,9 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int n,a,x,i,j,k;
+    int n,a=0,x,i,j,k;
     scanf("%d",&n);
-
     if(n%2==0)
     {
         n--;
@@ -30,8 +29,6 @@ int main()
         }
         printf("\n");
     }
-
-
     for(i=0;i<=x;i++)
     {
         for(j=0;j<n;j++)
@@ -47,8 +44,5 @@ int main()
         }
         printf("\n");
     }
-
-
-
     return 0;
 }
